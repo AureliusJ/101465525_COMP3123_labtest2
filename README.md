@@ -1,3 +1,4 @@
+![alt text](image.png)
 ![Weather App Overview](./screenshots/weather-app-overview.png)
 Features
 Search Weather by City
@@ -49,4 +50,5 @@ Each card includes:
 Day and Date: Clear and readable at the top.
 Weather Icon: Indicates forecast conditions.
 Details: Includes temperature, min/max, wind speed, and humidity.
+
 

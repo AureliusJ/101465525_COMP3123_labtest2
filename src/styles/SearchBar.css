@@ -1,0 +1,39 @@
+.search-bar-container {
+  display: flex;
+  align-items: center; /* Aligns the input and button vertically */
+  justify-content: center; /* Centers the entire search bar container */
+  margin-bottom: 20px; /* Adds spacing below the search bar */
+}
+
+.search-bar,
+.search-button {
+  box-sizing: border-box; /* Ensures consistent width and height accounting for padding and borders */
+  height: 40px; /* Standardized height for both */
+  border: none; /* Remove default borders */
+  outline: none; /* Remove outline for better styling */
+}
+
+.search-bar {
+  width: 300px; /* Adjust the width of the search input */
+  padding: 0 10px; /* Padding inside the input */
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 20px 0 0 20px; /* Rounded corners on the left side */
+  text-align: left; /* Centers the text in the input */
+  text-indent: 20px;
+}
+
+.search-button {
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #644749; /* Button background color */
+  border-radius: 0 20px 20px 0; /* Rounded corners on the right side */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #8ba892; /* Hover color for the button */
+}

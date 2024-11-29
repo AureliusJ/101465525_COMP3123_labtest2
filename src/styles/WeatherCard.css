@@ -1,0 +1,71 @@
+.weather-card {
+  display: flex;
+  justify-content: space-between; /* Space out the content horizontally */
+  align-items: center; /* Center all content vertically */
+  background: #e3bb88; /* Card background color */
+  color: #f7ecdd; /* Default font color */
+  padding: 40px; /* Increase padding for more height */
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Ensures full width */
+  margin-bottom: 20px; /* Spacing below */
+}
+
+.weather-card-left {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center-aligns content vertically */
+  padding-left: 70px; /* Adjust spacing from the left */
+
+}
+
+.weather-card-icon-container {
+  flex: 0.2; /* Adjust the flex size of the icon */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.weather-icon {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; /* Center the icon within its container */
+  margin-right: 150px; /* Adds spacing between the icon and the right content */
+  padding-right: 20px; /* Adds padding inside the icon container */
+}
+
+.weather-card-right {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center-aligns the content vertically */
+  padding-right: 5px; /* Adjust spacing from the right */
+  padding-left: 100px;
+}
+
+.weather-location {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-date {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.weather-description,
+.weather-temp,
+.weather-card-right p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.weather-temp span,
+.weather-card-right p span {
+  color: #fffffe; /* Highlight temperature numbers */
+  font-weight: bold;
+}

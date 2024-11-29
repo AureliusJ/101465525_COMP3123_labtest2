@@ -17,12 +17,12 @@ const WeatherCard = ({ weather }) => {
         <p className="weather-date">{date}</p>
       </div>
       <div>
-      <img
+        <img
           src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
           alt={weather.weather[0].description}
           className="weather-icon"
         />
-      </div>
+        </div>
       <div className="weather-card-right">
         <p className="weather-description">{weather.weather[0].description}</p>
         <p className="weather-temp">

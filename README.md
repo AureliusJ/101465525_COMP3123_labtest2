@@ -1,5 +1,4 @@
 ![alt text](image.png)
-![Weather App Overview](./screenshots/weather-app-overview.png)
 Features
 Search Weather by City
 
